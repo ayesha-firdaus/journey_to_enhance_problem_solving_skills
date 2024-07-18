@@ -1,0 +1,85 @@
+Array Notes
+Array collection of element of same data type
+int a[]=new int[size]; //initialization
+int[] res ;/declaration
+#inputting element
+for(int i=0;i<a.length;i++)
+{
+a[i]=sc.nextInt();
+}
+#printing
+1> for(int i=0;i<a.length;i++){
+sout(a[i]);
+}
+2> for(int i:arr)
+{
+sout(a[i]);
+}
+3> sout(Arrays.toString(a));
+
+2d Array
+#declaring
+int a[][];
+#initializing
+int a[][]=new int[size1][size2];
+#inputting
+for(int i=0;i<a.length;i++)
+{
+for(int j=0;j<a[i].length;j++)
+{
+a[i][j]=sc.nextInt();
+}}
+#printing
+1>
+for(int i=0;i<a.length;i++)
+{
+for(int j=0;j<a[i].length;j++)
+{
+sout(a[i][j]);
+}
+soutln();
+}
+2>
+for(int i=0;i<a.length;i++)
+{
+for(int j: arr[i])
+{
+sout(a[i][j]);
+}
+soutln();
+}
+3>
+for(int i=0;i<a.length;i++)
+{
+soutln(Arrays.toString(a[i]));
+}
+
+@ARRAYLIST
+
+#Intialization
+ArrayList<Integer> a=new ArrayList<>();
+
+#fill
+for(int i=0;i<89;i++)
+{
+a.add(23);
+}
+
+#Linear Search
+function sample()
+{
+for(int i=0;i<a.length;i++)
+{
+if(a[i]==target)
+{
+return i;
+}
+return -1;
+}
+
+
+
+
+
+
+
